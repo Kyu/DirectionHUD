@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "directionhud",
+  "version": "${version}",
+
+  "name": "Direction HUD",
+  "description": "Shows the direction a user is facing.",
+  "authors": [
+    "Precious O."                                                                                                                                                                           
+  ],                                                                                                                                                                                            
+  "contact": {
+    "homepage": "https://github.com/Kyu",
+    "sources": "https://github.com/Kyu/DirectionHUD"
+  },
+
+  "license": "MIT",
+  "icon": "assets/directionhud/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.preciouso.directionhud.DirectionHUD"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
