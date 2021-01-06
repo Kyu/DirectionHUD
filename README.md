@@ -1,5 +1,4 @@
-## Direction HUD Mod  
-===  
+## Direction HUD Mod    
 
 Shows direction information of player, like debug mode but permanent.  
 
